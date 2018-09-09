@@ -1,5 +1,9 @@
 package com.podium.challenge;
 
+/*
+ * Dealer data to uniquely identify each dealer.
+ * */
+
 public class Dealer {
 	private int id;
 	private String firstName;

@@ -4,6 +4,10 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * Compare and sort map by value to get top three results.
+ * Ref: https://www.programcreek.com/2013/03/java-sort-map-by-value
+ * */
 public class ValueComparator implements Comparator<Dealer>  {
 	HashMap<Dealer, Integer> map = new HashMap<Dealer, Integer>();
 	 
